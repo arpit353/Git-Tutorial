@@ -1,0 +1,21 @@
+Git Tutorials 1
+
+Introduction and Install
+
+* Git is a version control system
+* Git can be used to store different versions of a file
+
+* Git can be downloaded from https://git-scm.com/downloads
+
+* After installing Git, open Git bash
+* Git bash uses unix type commands
+
+* After opening bash, type git --version for finding the version
+
+Code 1 :-
+git --version
+
+Output 1 :- 
+
+git version 2.14.1.windows.1
+

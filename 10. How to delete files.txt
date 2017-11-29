@@ -1,0 +1,13 @@
+Git Tutorials 10
+
+How to Delete Files
+
+* We can remove the files from the folder and from the repository by git rm filename
+
+* git rm third.txt
+
+* This still need to be commited so 
+
+* git commit -m "This is the point where we deleted the files"
+
+

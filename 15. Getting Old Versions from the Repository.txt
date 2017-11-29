@@ -1,0 +1,14 @@
+Git Tutorials 15
+
+Getting Old Versions from the Repository
+
+* To get the old version find the commit number by git log command 
+* refer the commit number by the fex starting letters of the commit number
+* Use git checkout to get the files present at that time
+
+* git log
+* press q to quit the log scrren if struck
+* git checkout a87dfga -- sample.txt
+
+* This will replace the sample.txt file with the sample.txt file on our computer
+

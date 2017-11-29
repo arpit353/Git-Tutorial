@@ -1,0 +1,11 @@
+Git Tutorials
+
+Comparing the Staging Area with the Repository
+
+* Git diff checks the differences between the working copy and the repository
+
+* If we have added the files and not commited then it will not show the differences
+
+* To check the differences between the repository and the staged files is 
+
+* git diff --staged

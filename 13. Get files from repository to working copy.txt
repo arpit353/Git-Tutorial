@@ -1,0 +1,9 @@
+Git Tutorial 13
+
+Get files from repository to working copy
+
+* git checkout -- sample.txt
+
+* This sample.txt file will be changed by the file that was last commited
+
+* -- here means that we are not concerned with the branch we just want to replace the file

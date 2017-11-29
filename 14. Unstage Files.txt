@@ -1,0 +1,9 @@
+Git Tutorial 14
+
+Unstage Files
+
+* We can unstage a file from the staged area to working copy
+
+* git reset HEAD sample.txt
+
+* HEAD is the pointer we will talk about later 

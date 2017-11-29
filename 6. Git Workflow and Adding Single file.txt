@@ -1,0 +1,18 @@
+GIT Tutorial 6
+
+Git Workflow and Adding Single file
+
+* While working with a file we have 3 stages 
+
+1. Working copy
+2. Staging area
+3. Repository 
+
+* When we create a file it is a working copy
+* When we add it using git add . then it is in staging area
+* When we commit it, it is in the repository stage
+
+* Single file can be added to the repository by 
+
+* git add "Sample file 2.txt"
+

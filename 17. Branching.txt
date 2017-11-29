@@ -1,0 +1,23 @@
+Git Tutorial 17 
+
+Branching
+
+* We can use the concept of branch to have multiple copies of same file all working differently
+
+* For example we have test file in a folder. The default branch is master. We can make a differnet branch named sample.
+* Now switch to new branch and make all the changes in that branch. It will have no effect on master branch. 
+* We can switch to any branch at any time
+* After finishing if we want we can merge the 2 branches to merge the changes between 2 files
+* If confict come, it will show both code we can modify the code manually and then merge it back
+
+* git branch 
+to show all the branches available
+
+* git branch sample
+to create a new branch sample
+
+* git checkout sample
+to switch to sample
+
+* git merge sample
+to merge sample to master

@@ -1,0 +1,13 @@
+Git Tutorial 16
+
+Pushing to a GitHub Repository
+
+* Pushing to Github requires we have an github accound and a repository is made or setup
+
+* After creating repository add reference to it using 
+
+* git remote add nickname http://www.github.com/arpit353/sample
+
+* git push -u nickname master
+
+* We can use any nickname we want but mostpopular is origin

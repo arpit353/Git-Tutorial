@@ -1,0 +1,20 @@
+Git Tutorial 18
+
+Undoing/Reverting/Resetting code changes
+
+1. First Method 
+
+* It is for removing not commited changes( or replace working file with already commited file)
+* git checkout -- sample.txt
+
+2. Second Method
+
+* It is for reverting a commited change
+
+* git revert 6478dhbd4848sdf(Id of the commit)
+
+3. Use reset command
+
+* It we remove all the commits after a particular commit
+* git reset 555asdkjads54dd5f4asd(Id of the commit)
+

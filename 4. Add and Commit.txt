@@ -1,0 +1,25 @@
+Git Tutorial 4
+
+Add and Commit
+
+* After creating a repository a .git hidden folder is created. To see it type
+*ls -la
+
+* Create a sample file in the sample folder
+
+* To tell git that we have added files type 
+
+* git init .
+
+* . after init tell git to add all the files
+
+* To take a snapshot at this point type git commit -m "This is my first commit"
+
+C:\Users\Arpit\Desktop\tuna>git commit -m "This is my first commit"
+[master (root-commit) bdc8575] This is my first commit
+ 1 file changed, 3 insertions(+)
+ create mode 100644 Sample file.txt
+
+* Message can be passed in the quotes after -m to keep track of the commits
+
+* We can come to this point after some time

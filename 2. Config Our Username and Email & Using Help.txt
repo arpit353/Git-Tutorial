@@ -1,0 +1,47 @@
+GIT Tutorials 2
+
+Config Our Username and Email & Using Help
+
+* Since we will be working in groups we need name and email to verify our identity
+
+* git config --global user.name "arpit353"
+* git config --global user.email "arpit.khurana2015@gmail.com"
+
+To view all the configuartion file data
+
+* git config --list
+
+Output
+
+C:\Users\Arpit>git config --list
+core.symlinks=false
+core.autocrlf=true
+core.fscache=true
+color.diff=auto
+color.status=auto
+color.branch=auto
+color.interactive=true
+help.format=html
+rebase.autosquash=true
+http.sslcainfo=C:/Program Files/Git/mingw64/ssl/certs/ca-bundle.crt
+http.sslbackend=openssl
+diff.astextplain.textconv=astextplain
+filter.lfs.clean=git-lfs clean -- %f
+filter.lfs.smudge=git-lfs smudge -- %f
+filter.lfs.required=true
+filter.lfs.process=git-lfs filter-process
+credential.helper=manager
+user.email=arpit.khurana2015@gmail.com
+user.name=arpit353
+
+* for clearing the screen in git bash use 'clear' command. Just type and enter :-  clear
+
+* for checking any one entry only use 
+* git config user.email
+
+
+Using Help in GIT
+
+* We can git help about any topic by typing command name after git help 
+
+* git help commit

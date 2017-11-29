@@ -1,0 +1,34 @@
+Git Tutorial 3
+
+Navigating and Creating Our First Repository
+
+* To check our current directory type:-  pwd
+
+Output
+
+/c/Users/Arpit
+
+
+* To come backward in directory stucture type:- cd..
+
+* To go to a specific directory type:- cd Desktop
+
+* To go to a specific folder from home folder start typing by :- cd ~/Desktop/tuna
+
+* To check all the files in the folder type:- ls
+
+Creating Repository 
+
+* Just type git init to initiate the repository 
+
+Code :- 
+
+* git init
+
+Output
+
+Initialized empty Git repository in C:/Users/Arpit/Desktop/tuna/.git/
+
+
+
+

@@ -1,0 +1,6 @@
+Git Tutorial 12
+
+How to Commit Directly to the Repository
+
+* Use Git commit -am "Direct commmit " to directly commit the files
+

@@ -1,0 +1,40 @@
+Git Tutorial 11
+
+How to Move and Rename Files
+
+* To rename a file we have differnet ways 
+
+* First Way
+
+* Make the changes in the file explorer
+* Then remove the file and add the file Git will think it as renaming the file
+* Then commit
+
+* git rm sample.txt
+* git add home.txt
+* git status
+
+On branch master
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+        renamed:    sample.txt -> home.txt
+
+* git commit -m "Renamed file from sample to home"
+
+* Second Way 
+
+* git mv home.txt sample.txt
+
+On branch master
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+        renamed:    sample.txt -> home.txt
+
+Moving the file
+
+* We can also move the files using mv command
+
+* git mv sample.txt "New Folder/sample.txt"
+
